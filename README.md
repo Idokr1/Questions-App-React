@@ -13,3 +13,12 @@ The app is built with 3 components: AddQuestion, QuestionList, and Question. Add
 2. Install dependencies by running "npm install" in the directory's terminal
 3. Start the application by running "npm start" in the directory's terminal
 
+## Components
+### AddQuestion
+The AddQuestion component is responsible for rendering a form where users can add new questions. This component uses the questions.service to handle data submission.
+
+### QuestionList
+The QuestionList component is responsible for rendering a list of all questions. This component receives the list of questions from the questions.service and passes each individual question to the Question component.
+
+### Question
+The Question component is responsible for rendering an individual question. This component receives a question object and renders the question text and its results. The component also provides a button to delete the question.
