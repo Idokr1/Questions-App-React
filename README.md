@@ -22,3 +22,8 @@ The QuestionList component is responsible for rendering a list of all questions.
 
 ### Question
 The Question component is responsible for rendering an individual question. This component receives a question object and renders the question text and its results. The component also provides a button to delete the question.
+
+## Services
+questions.service
+The questions.service handles all data manipulation for the Question App. This service provides functions to get, post, put and delete questions.
+The service stores questions in the db.json file
