@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "title": "Question 1",
+      "description": "What is the capital of Israel?",
+      "answers": [
+        {
+          "id": 0,
+          "text": "Jerusalem",
+          "correctAnswer": true
+        },
+        {
+          "id": 1,
+          "text": "Tel Aviv",
+          "correctAnswer": false
+        },
+        {
+          "id": 2,
+          "text": "Haifa",
+          "correctAnswer": false
+        },
+        {
+          "id": 3,
+          "text": "Kfar Saba",
+          "correctAnswer": false
+        }
+      ],
+      "clicked": false
+    },
+    {
+      "id": 1,
+      "title": "Question 2",
+      "description": "What is the highest place on earth?",
+      "answers": [
+        {
+          "id": 0,
+          "text": "The Rocky Mountains",
+          "correctAnswer": false
+        },
+        {
+          "id": 1,
+          "text": "Mountain Everest",
+          "correctAnswer": true
+        },
+        {
+          "id": 2,
+          "text": "The Ocean",
+          "correctAnswer": false
+        },
+        {
+          "id": 3,
+          "text": "Petah Tikva",
+          "correctAnswer": false
+        }
+      ],
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "title": "Question 3",
+      "description": "Who won the World Cup in 2010?",
+      "answers": [
+        {
+          "id": 0,
+          "text": "Ghana",
+          "correctAnswer": false
+        },
+        {
+          "id": 1,
+          "text": "Belguim",
+          "correctAnswer": false
+        },
+        {
+          "id": 2,
+          "text": "Germany",
+          "correctAnswer": false
+        },
+        {
+          "id": 3,
+          "text": "Spain",
+          "correctAnswer": true
+        }
+      ],
+      "clicked": false
+    }
+  ]
+}

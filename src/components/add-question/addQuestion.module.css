@@ -1,0 +1,49 @@
+.newQuestionForm {
+  margin: 50px auto;
+  background-color: gray;
+  padding: 16px;
+  border-radius: 16px;
+  border: 10px solid rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  color: white;
+
+  width: 50%;
+  height: auto;
+}
+
+.newQuestionBtn {
+  margin-top: 20px;
+  height: auto;
+  background-color: green;
+  padding: 16px;
+  border: 3px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.btnDiv {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  margin-top: 8px;
+  /* width: 95%; */
+  width: 95%;
+}
+input[type="checkbox"] {
+  height: 25px;
+  width: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: green;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
